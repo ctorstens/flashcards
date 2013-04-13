@@ -1,4 +1,4 @@
-
+require_relative 'card.rb'
 
 class Parser
 
@@ -16,6 +16,7 @@ class Parser
       @stack
   end
 end
+
 
 
 

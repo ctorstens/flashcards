@@ -1,8 +1,6 @@
 require_relative 'stack.rb'
 require_relative 'parse.rb'
 
-
-
 class UserInterface
 
   def initialize(game)
