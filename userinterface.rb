@@ -1,5 +1,6 @@
 require_relative 'stack.rb'
 require_relative 'parse.rb'
+require_relative 'card.rb'
 
 class UserInterface
 
