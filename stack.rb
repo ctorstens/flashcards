@@ -1,17 +1,14 @@
-class Stack
-  attr_reader :list
+class Deck
+  attr_reader :deck
 
   def initialize(deck)  #use the array_of_card_objects to pass it in as argument
    @deck = deck
   end
 
-  def shuffle!
-    self.deck.shuffle
+  def shuffle
+    @deck.sort_by{rand}
   end
 
-  def get_card(shuffle)
-  end
-  
 
 end
 

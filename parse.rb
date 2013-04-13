@@ -2,10 +2,11 @@
 
 class Parser
 
-  attr_reader :filename
+  attr_reader :filename, :stack
 
   def initialize(filename)
     @filename = filename
+    @stack = []
   end
 
   def parse
@@ -18,8 +19,5 @@ end
 
 
 
-file = Parser.new('flashcard_samples.txt')
-
-p file.parse
 
 
